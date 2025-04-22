@@ -126,7 +126,7 @@ body {
     left: 0;
     width: 100%;
     height: 500px;
-    background-image: url('../Assets/Images/DogIMG1.jpg'); /* adjust path if needed */
+    background-image: url('../Assets/Images/DogIMG1.jpg'); 
     background-size: cover;
     background-position: center;
     opacity: 1;
