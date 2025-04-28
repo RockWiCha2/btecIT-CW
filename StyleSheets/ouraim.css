@@ -159,7 +159,7 @@ html, body {
 .faq-item {
     /* border: 2px solid rgba(255, 242, 230); */
     border-radius: 10px;
-    background-color: rgba(255, 242, 230, 0.5);
+    background-color: rgba(255, 242, 230, 0.7);
     cursor: pointer;
     transition: transform 0.2s ease, height 0.3s ease;
     display: flex;
