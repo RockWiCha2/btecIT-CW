@@ -33,23 +33,23 @@
     <form>
   
       <!-- First Name Field -->
-      <label for="fname">First Name</label>
+      <label for="fname">First Name<span style="color: red;">*</span></label>
       <input type="text" id="fname" name="fname" required />
   
       <!-- Last Name Field -->
-      <label for="lname">Last Name</label>
+      <label for="lname">Last Name<span style="color: red;">*</span></label>
       <input type="text" id="lname" name="lname" required />
   
       <!-- Email Field -->
-      <label for="email">Email</label>
+      <label for="email">Email<span style="color: red;">*</span></label>
       <input type="email" id="email" name="email" required />
   
       <!-- Preferred Visit Date Field -->
-      <label for="visit-date">Preferred Visit Date</label>
+      <label for="visit-date">Preferred Visit Date<span style="color: red;">*</span></label>
       <input type="date" id="visit-date" name="visit-date" required>
   
       <!-- Dog Selection Dropdown -->
-      <label for="dog">Which dog would you like to visit?</label>
+      <label for="dog">Which dog would you like to visit?<span style="color: red;">*</span></label>
       <div class="dog-select-wrapper">
         <select id="dog" name="dog" required onchange="showDogInfo()">
           <option value="" disabled selected>Select a dog</option>
@@ -75,7 +75,7 @@
       <!-- Custom Address Fields (Only shown if HQ is not selected) -->
       <div id="custom-address-fields">
         <!-- Address Line 1 -->
-        <label for="address-line1">Address Line 1</label>
+        <label for="address-line1">Address Line 1<span style="color: red;">*</span></label>
         <input type="text" id="address-line1" name="address-line1" placeholder="123 Example Street">
   
         <!-- Address Line 2 -->
@@ -83,11 +83,11 @@
         <input type="text" id="address-line2" name="address-line2" placeholder="Flat / Unit (optional)">
   
         <!-- Town/City -->
-        <label for="town">Town/City</label>
+        <label for="town">Town/City<span style="color: red;">*</span></label>
         <input type="text" id="town" name="town" placeholder="Town or City">
   
         <!-- Postcode -->
-        <label for="postcode">Postcode</label>
+        <label for="postcode">Postcode<span style="color: red;">*</span></label>
         <input type="text" id="postcode" name="postcode" placeholder="AB1 2CD">
       </div>
   
